@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Xe ôm công nghệ</string>
+    <string name="trang_chu">Trang chủ</string>
+    <string name="lich_su">Lịch sử</string>
+    <string name="tai_khoan">Tài khoản:</string>
+    <string name="ngan_hang">Ngân hàng</string>
+    <string name="diem_den">Điểm đến</string>
+    <string name="dat_xe">Đặt xe</string>
+    <string name="txt18">18</string>
+    <string name="so_du">Số dư:</string>
+    <string name="ngay_lap">Ngày lập:</string>
+    <string name="mat_khau">Mật khẩu</string>
+    <string name="dang_nhap">Đăng nhập</string>
+    <string name="dang_ky">Đăng ký</string>
+    <string name="ho_ten">Họ tên</string>
+    <string name="so_dien_thoai">Số điện thoại</string>
+    <string name="dia_chi">Địa chỉ</string>
+    <string name="dang_ky_tai_khoan">Đăng ký tài khoản</string>
+
+    <!--    Lịch sử chuyến đi và đặt cước-->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="CamOn_KhachHang">Cảm ơn bạn đã sử dụng dịch vụ của chúng tôi</string>
+    <string name="CamOn_KhachHang_DatXe">Cảm ơn bạn đã sử dụng dịch vụ của chúng tôi. Tài xế đang trên đường đến</string>
+    <string name="TB_Thoi_Gian_TaiXe_Den">Tài xế đang đến trong </string>
+    <string name="ten_tai_xe">Nguyễn Văn A</string>
+    <string name="diem_di">Điểm đi: </string>
+    <string name="so_km">Số km: </string>
+    <string name="gia_tien">Giá tiền: </string>
+    <string name="thoi_gian">Thời gian: </string>
+    <string name="tai_xe">Tài xế: </string>
+    <string name="khach_hang">Khách hàng: </string>
+
+
+    <string name="diem_di_value">85 Nguyễn Văn Bảo, Phường 5, Gò Vấp</string>
+    <string name="diem_den_value">85 Cộng hòa, Phường 5, Tân Bình</string>
+    <string name="so_km_value">10 </string>
+    <string name="gia_tien_value">50.000VNĐ </string>
+    <string name="thoi_gian_value">17/04/2021 </string>
+
+    <!--    Khách hàng-->
+    <string name="edit">Chỉnh sửa</string>
+    <string name="address">Địa chỉ: </string>
+    <string name="phonenumber">Số điện thoại: </string>
+    <string name="customer">Loại khách: </string>
+    <string name="save">Lưu</string>
+    <string name="thank">CẢM ƠN BẠN ĐÃ GIÚP CHUYẾN ĐI THÀNH CÔNG</string>
+
+
+    <!--    Thông báo lỗi-->
+    <string name="loi_rong">Vui lòng không để trống</string>
+    <string name="loi_taikhoan_ton_tai">Tài khoản đã tồn tại</string>
+    <string name="loi_dang_nhap">Tài khoản hoặc mật khẩu không đúng</string>
+    <string name="loi_so_du">Số dư không đủ</string>
+    <string name="loi_dat_xe">Vui lòng chọn điểm đi, điểm đến̉</string>
+
+    <!--    Thông báo thành công-->
+    <string name="dang_ky_thanh_cong">Đăng ký thành công</string>
+    <string name="dang_nhap_thanh_cong">Đăng nhập thành công</string>
+    <string name="doi_mat_khau_thanh_cong">Đổi thông tin thành công</string>
+    <string name="dat_xe_thanh_cong">Đặt xe thành công</string>
+
+    <string name="default_value">0</string>
+    <string name="api_key">AIzaSyAq_xr_AzPWsDS7tncCppZCELyqA2eTq8M</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home">Trang chủ</string>
+    <string name="history">Lịch sử</string>
+    <string name="account">Tài khoản</string>
+    <string name="bank">Ngân hàng</string>
+    <string name="km_count">Số km: </string>
+    <string name="price">Số tiền: </string>
+    <string name="booking">Đặt xe</string>
+    <string name="current_position">Vị trí hiện tại</string>
+    <string name="destinate_position">Điểm đến</string>
+    <string name="go">Khởi hành</string>
+
+<!--    ViTri-->
+    <string name="vi_tri">Vị trí: </string>
+
+<!--    Huu loi-->
+    <string name="confirm_ride">Xác nhận chuyến đi thành công</string>
+    <string name="not_enough_balance">Bạn không đủ số dư để đặt chuyến xe, vui lòng nạp thêm tiền!</string>
+    <string name="order_success">Đặt xe thành công!</string>
+    <string name="no_rider">Không có tài xế phù hợp</string>
+    <string name="ride_completed">Hoàn thành chuyến đi!</string>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/trangChu"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/trang_chu"
+        />
+    <item
+        android:id="@+id/lichSu"
+        android:icon="@drawable/ic_baseline_history_24"
+        android:title="@string/lich_su"
+        />
+    <item
+        android:id="@+id/datXe"
+        android:icon="@drawable/ic_baseline_directions_car_24"
+        android:title="Đặt xe"
+        />
+    <item
+        android:id="@+id/taiKhoan"
+        android:icon="@drawable/ic_baseline_account_box_24"
+        android:title="@string/tai_khoan"
+        />
+    <item
+        android:id="@+id/nganHang"
+        android:icon="@drawable/ic_baseline_monetization_on_24"
+        android:title="@string/ngan_hang"
+        />
+</menu>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TaiKhoanNganHangFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+<!--        <Button-->
+<!--            android:id="@+id/btnDoiMKNganHang"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:backgroundTint="#ea0707"-->
+<!--            android:text="Đổi mật khẩu" />-->
+
+        <ImageView
+            android:id="@+id/imageBank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bank" />
+
+        <TextView
+            android:id="@+id/tV_TenNganHang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ngan_hang"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/black"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp">
+
+                <TextView
+                    android:id="@+id/tV_TaiKhoan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tai_khoan"
+                    android:textSize="20sp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/tV_TenTK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tV_TaiKhoan"
+                    android:text=""
+                    android:textSize="20sp"
+
+                    android:textColor="@color/black"/>
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="15dp">
+
+                <TextView
+                    android:id="@+id/tV_SoTien"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/so_du"
+                    android:textSize="20sp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/tV_Tien"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tV_SoTien"
+                    android:text=""
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/tV_VND"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tV_SoTien"
+                    android:text=" VNĐ"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp">
+
+                <TextView
+                    android:id="@+id/tV_NgayLap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/ngay_lap"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tV_Ngay"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_toRightOf="@id/tV_NgayLap"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</FrameLayout>

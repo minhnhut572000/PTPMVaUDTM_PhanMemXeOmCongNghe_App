@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoiMatKhauFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <ImageView
+            android:id="@+id/imageBank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bank" />
+
+        <TextView
+            android:id="@+id/tV_TenNganHang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GO BANK"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/black"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editMKCu"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:inputType="textPassword"
+                android:background="@drawable/tao_vien"
+                android:hint="    Mật khẩu cũ"
+                android:textSize="20sp"
+                />
+            <EditText
+                android:id="@+id/editMKMoi"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:inputType="textPassword"
+                android:background="@drawable/tao_vien"
+                android:hint="    Mật khẩu mới"
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/btnLuu"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:text="Lưu"
+                android:backgroundTint="#ea0707"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</FrameLayout>

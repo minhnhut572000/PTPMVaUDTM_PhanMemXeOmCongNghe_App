@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange">
+
+    <TextView
+        android:id="@+id/txtDangKy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="@string/dang_ky_tai_khoan"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtTaiKhoan"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:background="@android:drawable/edit_text"
+
+        android:drawablePadding="4dp"
+        android:ems="10"
+        android:hint="@string/tai_khoan"
+        android:inputType="textPersonName"
+        android:padding="18dp"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtDangKy" />
+
+    <EditText
+        android:id="@+id/txtMatKhau"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/edit_text"
+
+        android:drawablePadding="4dp"
+        android:ems="10"
+        android:hint="@string/mat_khau"
+        android:inputType="textPassword"
+        android:padding="18dp"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="@id/txtTaiKhoan"
+        app:layout_constraintStart_toStartOf="@id/txtTaiKhoan"
+        app:layout_constraintTop_toBottomOf="@id/txtTaiKhoan" />
+
+    <EditText
+        android:id="@+id/txtHoTen"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/edit_text"
+
+        android:drawablePadding="4dp"
+        android:ems="10"
+        android:hint="@string/ho_ten"
+        android:padding="18dp"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="@id/txtMatKhau"
+        app:layout_constraintStart_toStartOf="@id/txtMatKhau"
+        app:layout_constraintTop_toBottomOf="@id/txtMatKhau" />
+
+    <EditText
+        android:id="@+id/txtSoDT"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/edit_text"
+        android:drawablePadding="4dp"
+        android:ems="10"
+        android:hint="@string/so_dien_thoai"
+        android:padding="18dp"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="@id/txtHoTen"
+        app:layout_constraintStart_toStartOf="@id/txtHoTen"
+        app:layout_constraintTop_toBottomOf="@id/txtHoTen" />
+
+    <EditText
+        android:id="@+id/txtDiaChi"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/edit_text"
+        android:drawablePadding="4dp"
+        android:ems="10"
+        android:hint="@string/dia_chi"
+        android:padding="18dp"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="@id/txtSoDT"
+        app:layout_constraintStart_toStartOf="@id/txtSoDT"
+        app:layout_constraintTop_toBottomOf="@id/txtSoDT" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/txtHinhDaiDien"-->
+<!--        android:layout_width="341dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:background="@android:drawable/edit_text"-->
+<!--        android:drawablePadding="4dp"-->
+<!--        android:ems="10"-->
+<!--        android:hint="Hình đại diện"-->
+<!--        android:padding="18dp"-->
+<!--        android:textColorHint="@color/black"-->
+<!--        app:layout_constraintEnd_toEndOf="@id/txtDiaChi"-->
+<!--        app:layout_constraintStart_toStartOf="@id/txtDiaChi"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/txtDiaChi" />-->
+
+    <Button
+        android:id="@+id/btnDangKy"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/red"
+        android:padding="18dp"
+        android:text="@string/dang_ky"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDiaChi" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
